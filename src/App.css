@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  background-color: gray;
+}
+
+#root {
+  max-width: 550px;
+  background-color: white;
+}
+
+/* ---------- HEADER --------*/
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  background-color: #fff7ed;
+}
+
+.logo,
+nav a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.logo {
+  font-size: 25.35px;
+  font-weight: 900;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/*-------- FOOTER ----------*/
+.footer {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+  color: #aaaaaa;
+}
+
+/*------HOME PAGE---------- */
+.home {
+  background-image: url(../public/home-bg.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.home h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.home p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.home button {
+  width: 100%;
+  background-color: #ff8c38;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/*-----ABOUT------------*/
+.about-cover {
+  height: 235px;
+  background-image: url('/public/about-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-content {
+  padding: 2rem;
+}
+.about-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.explore-container {
+  background-color: #ffcc8d;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 5px;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  margin-block: 3rem 1rem;
+}
+
+.explore-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.explore-container button {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  height: 50px;
+  width: 175px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
