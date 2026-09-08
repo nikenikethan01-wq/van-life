@@ -62,7 +62,7 @@ nav a:hover {
 
 /*------HOME PAGE---------- */
 .home {
-  background-image: url(../public/home-bg.png);
+  background-image: url('/home-bg.png');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@ nav a:hover {
 /*-----ABOUT------------*/
 .about-cover {
   height: 235px;
-  background-image: url('/public/about-bg.png');
+  background-image: url('/about-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
